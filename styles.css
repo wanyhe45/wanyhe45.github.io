@@ -79,7 +79,7 @@ nav ul li a:hover {
 
 /********* page one *********/
 .pageOne {
-	background: url("images/header.jpg");
+	background: url("http://codecondo.com/wp-content/uploads/2014/04/12-Courses-for-Starting-Your-Web-Development-Journey.jpg?x94435");
 	background-size: cover;
 	height: 800px;
 	text-align: center;
@@ -120,7 +120,7 @@ hr {
 .pageTwo {
 	background-color: black;
 	background-size: cover;
-	height: 800px;
+	height: 850px;
 	padding-top: 3%;
 }
 
@@ -254,7 +254,7 @@ p {	text-align: left;
   opacity: 1;
   font-size: 30px;
 }
-.work a:hover img {
+.work a:hover img{
   -webkit-filter: brightness(50%);
           filter: brightness(50%);
 }
@@ -262,11 +262,12 @@ p {	text-align: left;
   position: absolute;
   -o-object-fit: cover;
      object-fit: cover;
-  width: 100%;
+  width: 100% !important;
   height: 100%;
   display: block;
   width: 700px;
 }
+
 .work a i {
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
