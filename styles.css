@@ -296,6 +296,11 @@ p {	text-align: left;
   	font-size: 30px;
 } 
 
+.flex-container {
+	display: flex;
+	flex-flow: row wrap;
+}
+
 /********* skill bar ***********/
 * {box-sizing:border-box}
 
@@ -343,3 +348,10 @@ p {	text-align: left;
 }
 
 /********* nav hover effect **************/
+
+/*********** Mobile ***************/
+@media (max-width: 480px) {
+	.pageTwo {
+		height: 1075px;
+	}
+}
