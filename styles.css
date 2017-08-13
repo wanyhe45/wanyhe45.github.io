@@ -120,7 +120,7 @@ hr {
 .pageTwo {
 	background-color: black;
 	background-size: cover;
-	height: 850px;
+	height: 1075px;
 	padding-top: 3%;
 }
 
@@ -353,5 +353,6 @@ p {	text-align: left;
 @media (max-width: 480px) {
 	.pageTwo {
 		height: 1075px;
+		font-size: 1em;
 	}
 }
